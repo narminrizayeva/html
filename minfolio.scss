@@ -1,0 +1,81 @@
+.vsastr{
+    img{
+        opacity:0.9;
+        width:100%
+    }
+    h2{
+        font-family:"varela round",sans-serif;
+        position: absolute;
+        left: 5%;
+        top:5%;
+        color:white
+        
+    }
+    .menu{
+        a{
+            text-decoration: none;
+            color: white;
+            font-family:"varela round",sans-serif;
+            margin:10px;
+            &:hover{
+                color: gray;
+
+            }
+        }
+        position: absolute;
+        top:10%;
+        right: 5%;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        text-decoration: none;
+
+    }
+    h1{
+        position: absolute;
+        top: 30%;
+        left:15%;
+        font-size:40px;
+        width: 45%;
+        color: white;
+        font-family:"varela round",sans-serif;
+    }
+    .krujok{
+        position: absolute;
+        top:40%;
+        right: 20%;
+        fill: transparent;
+        color: white;
+        
+    }
+    h6{
+        position: absolute;
+        top: 45%;
+        left:15%;
+        font-size: 15px;
+        width: 45%;
+        color:gray;
+        font-family:"varela round",sans-serif;
+
+    }
+    .button{
+        a{
+            text-decoration: none;
+            color:black;
+            &:hover{
+                color: red;
+            }
+        }
+        width: 100px;
+        padding: 10px;
+        border: 1px solid white;
+        background-color: white;
+        color: black;
+        position: absolute;
+        top:65%;
+        left:15%;
+        text-decoration: none;
+        font-family:"varela round",sans-serif ;
+    }
+    
+}
